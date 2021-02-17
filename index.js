@@ -20,7 +20,7 @@ const usingForLoop = function(arr){
 //Working on Map
 //working on filter
 //Working on reduce
-//[....]
+//[....] spread operators
 //if else ternary
 //self called function
 //slice 
@@ -105,3 +105,17 @@ const DoingSameWithSingleForLoop = (stri, startlength) => {
 console.log(DoingSameWithSingleForLoop(stri, startLength))
 
 //Solve how much less consicutive numbers are there to meet greater then 51 [1, 4, 45, 6, 0, 19] = [4, 45, 6]
+[1, 4, 45, 6, 0, 19]
+
+
+function appender(array, beginIndex) {
+    let toReturn = '';
+    for (let i = beginIndex; i < array.length; i++) {
+      toReturn = toReturn + array[i];
+      if (i == array.length - 1) i = -1;
+      if (i == beginIndex - 1) break;
+    }
+    return toReturn;
+  }
+  
+  console.log(appender(['a', 'b', 'c', 'd', 'e'], 2));
