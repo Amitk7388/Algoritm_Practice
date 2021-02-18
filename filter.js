@@ -53,3 +53,15 @@ const reverIt = (str) => {
 }
 
 //console.log(reverIt(string))
+
+//find the closest number from an sorted array of a given number 
+const findClosestOne = (arr, num) => {
+    let numbr = 0
+    console.log(num)
+    arr.filter((ele, index, number)  => {
+        if(ele < num) numbr = ele
+    })
+    return numbr
+}
+
+//console.log(findClosestOne([1, 2, 3, 5, 6, 9,89, 56], 10))

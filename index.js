@@ -20,6 +20,8 @@ const usingForLoop = function(arr){
 //Working on Map
 //working on filter
 //Working on reduce
+//when not to use node.js
+//when to use mysql and mongodb
 //[....] spread operators
 //if else ternary
 //self called function
@@ -27,8 +29,6 @@ const usingForLoop = function(arr){
 //splice
 //charCodeAt()
 //self = this
-//when not to use node.js
-//when to use mysql and mongodb
 //what is sharding
 //MultiThreading
 //git commands
@@ -119,3 +119,5 @@ function appender(array, beginIndex) {
   }
   
   console.log(appender(['a', 'b', 'c', 'd', 'e'], 2));
+
+
